@@ -1,2 +1,2 @@
 # pix-transfer-functions
-Sharpening images through ESF, LSF, PSF, MTF
+Edge detection and Image Sharpening through ESF, LSF, PSF, MTF
