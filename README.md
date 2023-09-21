@@ -1,2 +1,6 @@
 # pix-modulation-functions
-Edge detection and Image Sharpening through ESF, LSF, PSF, MTF
+Optical Imaging.
+Exploring image sharpness, and resolution:
+ESF, LSF, PSF, and MTF.
+
+(Measurement techniques to evaluate high-resolution imaging systems)
