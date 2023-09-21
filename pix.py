@@ -1,3 +1,6 @@
+# Author: Andrew Fleck
+# 09/21/23
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -25,6 +28,7 @@ selected_line1 = tisPhoto[142:218,209]
 pixel = np.arange(1, 77)
 
 # Best fit for the black and white photo
+# Parameters 
 a = 166.2
 b = 33.14
 c = 0.6217
