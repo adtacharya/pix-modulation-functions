@@ -53,7 +53,7 @@ esf =  a/(np.exp((pixel-b)/c)+1)+d
 esf1 =  a1/(np.exp((pixel-b1)/c1)+1)+d1
 
 plt.figure()
-plt.plot(pixel,selected_line,'.',pixel,esf,pixel,selected_line1,'.',pixel,esf)
+plt.plot(pixel,selected_line,'.',pixel,esf,pixel,selected_line1,'.',pixel,esf1)
 plt.title("Edge Spread Function (ESF)")
 plt.ylabel("Pixel Intensity")
 plt.xlabel("Pixel Number")
