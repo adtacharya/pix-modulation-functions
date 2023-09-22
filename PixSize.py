@@ -49,20 +49,20 @@ b1 = par[1]
 c1 = par[2]
 d1 = par[3]
 
-ESF =  a/(np.exp((pixel-b)/c)+1)+d
-ESF1 =  a1/(np.exp((pixel-b1)/c1)+1)+d1
+esf =  a/(np.exp((pixel-b)/c)+1)+d
+esf1 =  a1/(np.exp((pixel-b1)/c1)+1)+d1
 
 plt.figure()
-plt.plot(pixel,selected_line,'.',pixel,ESF,pixel,selected_line1,'.',pixel,ESF)
+plt.plot(pixel,selected_line,'.',pixel,esf,pixel,selected_line1,'.',pixel,esf)
 plt.title("Edge Spread Function (ESF)")
 plt.ylabel("Pixel Intensity")
 plt.xlabel("Pixel Number")
 
-ESF = a/(np.exp((pixel-b)/c)+1)+d
-ESF1 = a1/(np.exp((pixel-b1)/c1)+1)+d1
+esf = a/(np.exp((pixel-b)/c)+1)+d
+esf1 = a1/(np.exp((pixel-b1)/c1)+1)+d1
 
-LSF_nu = abs(np.diff(ESF))
-LSF_nu1 = abs(np.diff(ESF1))
+LSF_nu = abs(np.diff(esf))
+LSF_nu1 = abs(np.diff(esf1))
 
 LSF_an = abs(a*np.exp((pixel-b)/c)/(c*(np.exp((pixel-b)/c)+1)**2))
 LSF_an1 = abs(a1*np.exp((pixel-b1)/c1)/(c1*(np.exp((pixel-b1)/c1)+1)**2))
